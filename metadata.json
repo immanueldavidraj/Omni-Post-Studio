@@ -1,0 +1,8 @@
+{
+  "name": "Cross-Platform Social Media Content Generator",
+  "description": "Generates tailored social media posts and platform-optimized images for LinkedIn, Twitter/X, and Instagram from an idea and tone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
