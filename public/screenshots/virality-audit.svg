@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="auditBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#edf2f7" />
+    </linearGradient>
+    <linearGradient id="meterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <filter id="cardShadowAudit" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <rect width="1280" height="640" fill="url(#auditBg)" />
+
+  <!-- Section Title -->
+  <text x="640" y="44" class="font-sans" font-size="20" font-weight="800" fill="#0f172a" text-anchor="middle">Strategic AI Content &amp; Virality Audit</text>
+  <text x="640" y="68" class="font-sans" font-size="13" fill="#64748b" text-anchor="middle">Powered by Gemini 3.1 Pro Preview: Real-time score meters, hook evaluation, and algorithmic suggestions</text>
+
+  <!-- Main Audit Container -->
+  <g transform="translate(140, 92)">
+    <rect width="1000" height="510" rx="20" fill="#ffffff" filter="url(#cardShadowAudit)" stroke="#e2e8f0" stroke-width="1" />
+
+    <!-- Top Badge Row -->
+    <rect x="36" y="28" width="140" height="28" rx="8" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1" />
+    <text x="50" y="46" class="font-sans" font-size="11" font-weight="700" fill="#4338ca">⚡ TWITTER / X AUDIT</text>
+
+    <text x="800" y="46" class="font-mono" font-size="11" fill="#64748b" text-anchor="end">Model: gemini-3.1-pro-preview</text>
+
+    <!-- 4 Key Metrics Cards -->
+    <!-- Metric 1: Score -->
+    <g transform="translate(36, 76)">
+      <rect width="210" height="100" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="20" y="32" class="font-sans" font-size="11" font-weight="700" fill="#64748b">VIRALITY SCORE</text>
+      <text x="20" y="72" class="font-sans" font-size="34" font-weight="900" fill="#4f46e5">94<tspan font-size="16" font-weight="500" fill="#94a3b8">/100</tspan></text>
+      <!-- Meter -->
+      <rect x="20" y="82" width="170" height="6" rx="3" fill="#e2e8f0" />
+      <rect x="20" y="82" width="160" height="6" rx="3" fill="url(#meterGrad)" />
+    </g>
+
+    <!-- Metric 2: Hook Rating -->
+    <g transform="translate(266, 76)">
+      <rect width="210" height="100" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="20" y="32" class="font-sans" font-size="11" font-weight="700" fill="#64748b">HOOK STRENGTH</text>
+      <text x="20" y="72" class="font-sans" font-size="34" font-weight="900" fill="#059669">9.5<tspan font-size="16" font-weight="500" fill="#94a3b8">/10</tspan></text>
+      <text x="20" y="88" class="font-sans" font-size="10" font-weight="600" fill="#10b981">✓ High curiosity &amp; friction trigger</text>
+    </g>
+
+    <!-- Metric 3: Readability -->
+    <g transform="translate(496, 76)">
+      <rect width="210" height="100" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="20" y="32" class="font-sans" font-size="11" font-weight="700" fill="#64748b">READABILITY LEVEL</text>
+      <text x="20" y="68" class="font-sans" font-size="24" font-weight="800" fill="#0f172a">Skimmable</text>
+      <text x="20" y="88" class="font-sans" font-size="10" font-weight="600" fill="#475569">Grade 6 level • Scannable list</text>
+    </g>
+
+    <!-- Metric 4: Projected Reach -->
+    <g transform="translate(726, 76)">
+      <rect width="238" height="100" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="20" y="32" class="font-sans" font-size="11" font-weight="700" fill="#64748b">PREDICTED REACH</text>
+      <text x="20" y="68" class="font-sans" font-size="24" font-weight="800" fill="#0284c7">High Reach</text>
+      <text x="20" y="88" class="font-sans" font-size="10" font-weight="600" fill="#0284c7">Optimal bookmark &amp; repost likelihood</text>
+    </g>
+
+    <!-- Strategic Insights Grid -->
+    <!-- Left: Algorithmic Strengths -->
+    <g transform="translate(36, 196)">
+      <rect width="440" height="186" rx="14" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1" />
+      <line x1="0" y1="0" x2="0" y2="186" stroke="#16a34a" stroke-width="6" />
+      <text x="24" y="30" class="font-sans" font-size="13" font-weight="800" fill="#15803d">ALGORITHMIC STRENGTHS</text>
+      
+      <text x="24" y="60" class="font-sans" font-size="11" font-weight="600" fill="#166534">• Bold Contradiction:</text>
+      <text x="36" y="76" class="font-sans" font-size="11" fill="#14532d">"Speed is not a feature" creates instant cognitive curiosity.</text>
+
+      <text x="24" y="104" class="font-sans" font-size="11" font-weight="600" fill="#166534">• Structural Scannability:</text>
+      <text x="36" y="120" class="font-sans" font-size="11" fill="#14532d">Numbered takeaways (1/, 2/, 3/) dramatically increase mobile dwell time.</text>
+
+      <text x="24" y="148" class="font-sans" font-size="11" font-weight="600" fill="#166534">• Character Constraint Compliance:</text>
+      <text x="36" y="164" class="font-sans" font-size="11" fill="#14532d">248 characters leaves safe headroom under the 280-char threshold.</text>
+    </g>
+
+    <!-- Right: Suggested Improvements -->
+    <g transform="translate(506, 196)">
+      <rect width="458" height="186" rx="14" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1" />
+      <line x1="0" y1="0" x2="0" y2="186" stroke="#4f46e5" stroke-width="6" />
+      <text x="24" y="30" class="font-sans" font-size="13" font-weight="800" fill="#3730a3">ACTIONABLE OPTIMIZATIONS</text>
+      
+      <text x="24" y="60" class="font-sans" font-size="11" font-weight="600" fill="#312e81">• Add Concrete Quantifier:</text>
+      <text x="36" y="76" class="font-sans" font-size="11" fill="#1e1b4b">Include the exact DAU delta (+48%) in the closing sentence.</text>
+
+      <text x="24" y="104" class="font-sans" font-size="11" font-weight="600" fill="#312e81">• Engage Reply Loop:</text>
+      <text x="36" y="120" class="font-sans" font-size="11" fill="#1e1b4b">Ask "What's the #1 bottleneck in your stack?" to stimulate comment threads.</text>
+
+      <text x="24" y="148" class="font-sans" font-size="11" font-weight="600" fill="#312e81">• Hashtag Economy:</text>
+      <text x="36" y="164" class="font-sans" font-size="11" fill="#1e1b4b">Limit to 2 targeted tags (#buildinpublic #tech) to preserve tweet authority.</text>
+    </g>
+
+    <!-- Fast Polish Tools Row -->
+    <g transform="translate(36, 404)">
+      <rect width="928" height="76" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+      <text x="20" y="30" class="font-sans" font-size="11" font-weight="700" fill="#64748b">SUB-SECOND AI POLISH TOOLS (gemini-3.1-flash-lite):</text>
+      
+      <rect x="20" y="38" width="180" height="28" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+      <text x="32" y="56" class="font-sans" font-size="11" font-weight="600" fill="#334155">⚡ Make Punchier</text>
+
+      <rect x="212" y="38" width="190" height="28" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+      <text x="224" y="56" class="font-sans" font-size="11" font-weight="600" fill="#334155">✂️ Hard-Trim &lt;280 Chars</text>
+
+      <rect x="414" y="38" width="180" height="28" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+      <text x="426" y="56" class="font-sans" font-size="11" font-weight="600" fill="#334155">🎯 Add Strong CTA</text>
+
+      <rect x="606" y="38" width="170" height="28" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+      <text x="618" y="56" class="font-sans" font-size="11" font-weight="600" fill="#334155">🪝 Sharpen Hook</text>
+
+      <rect x="796" y="38" width="116" height="28" rx="8" fill="#4f46e5" />
+      <text x="814" y="56" class="font-sans" font-size="11" font-weight="700" fill="#ffffff">Re-Analyze ➔</text>
+    </g>
+  </g>
+</svg>

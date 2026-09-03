@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="liGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a66c2" />
+      <stop offset="100%" stop-color="#004182" />
+    </linearGradient>
+    <linearGradient id="twGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="igGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="imgBanner1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="50%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="imgBanner2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="imgBanner3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843" />
+      <stop offset="50%" stop-color="#be185d" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+    <filter id="shadowSm" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06" />
+    </filter>
+    <filter id="shadowLg" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1280" height="760" fill="url(#bgGrad)" />
+
+  <!-- App Header -->
+  <rect x="30" y="24" width="1220" height="68" rx="16" fill="#ffffff" filter="url(#shadowSm)" stroke="#e2e8f0" stroke-width="1" />
+  
+  <!-- Logo & Title -->
+  <rect x="48" y="38" width="40" height="40" rx="10" fill="url(#primaryGrad)" />
+  <path d="M68 46 L76 58 L60 58 Z" fill="#ffffff" opacity="0.9" />
+  <circle cx="68" cy="62" r="3" fill="#ffffff" />
+  
+  <text x="100" y="55" class="font-sans" font-size="16" font-weight="700" fill="#0f172a">Cross-Platform Social Media Content Generator</text>
+  <text x="100" y="73" class="font-sans" font-size="12" fill="#64748b">Transform raw ideas into tailored LinkedIn, Twitter/X, and Instagram posts + AI visual assets</text>
+
+  <!-- Header Right Actions -->
+  <rect x="990" y="42" width="120" height="32" rx="8" fill="#e0e7ff" stroke="#c7d2fe" stroke-width="1" />
+  <text x="1004" y="62" class="font-sans" font-size="12" font-weight="600" fill="#4338ca">⚡ Gemini 3.5 Engine</text>
+
+  <rect x="1122" y="42" width="112" height="32" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="1144" y="62" class="font-sans" font-size="12" font-weight="600" fill="#334155">🕒 History (4)</text>
+
+  <!-- Idea Input Card -->
+  <rect x="30" y="104" width="1220" height="152" rx="16" fill="#ffffff" filter="url(#shadowSm)" stroke="#e2e8f0" stroke-width="1" />
+
+  <text x="50" y="128" class="font-sans" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="1">YOUR IDEA (CONCEPT, ANNOUNCEMENT, OR STORY)</text>
+  
+  <!-- Idea Text Area Mockup -->
+  <rect x="50" y="136" width="1180" height="42" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+  <text x="64" y="162" class="font-sans" font-size="13" fill="#1e293b" font-weight="500">We just launched our real-time collaboration canvas with instant AI summarization. 3 big lessons on reducing latency from 2.4s to 320ms...</text>
+
+  <!-- Tone Pills and Generate Button Row -->
+  <text x="50" y="202" class="font-sans" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="1">TONE:</text>
+  
+  <!-- Selected Inspiring Tone -->
+  <rect x="100" y="188" width="100" height="28" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5" />
+  <text x="114" y="206" class="font-sans" font-size="11" font-weight="700" fill="#4338ca">✨ Inspiring</text>
+
+  <rect x="208" y="188" width="108" height="28" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="220" y="206" class="font-sans" font-size="11" font-weight="500" fill="#475569">👔 Professional</text>
+
+  <rect x="324" y="188" width="88" height="28" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="336" y="206" class="font-sans" font-size="11" font-weight="500" fill="#475569">💬 Casual</text>
+
+  <rect x="420" y="188" width="112" height="28" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="432" y="206" class="font-sans" font-size="11" font-weight="500" fill="#475569">⚡ High-Energy</text>
+
+  <rect x="540" y="188" width="108" height="28" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="552" y="206" class="font-sans" font-size="11" font-weight="500" fill="#475569">📚 Educational</text>
+
+  <!-- Resolution controls -->
+  <rect x="670" y="188" width="150" height="28" rx="8" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1" />
+  <text x="680" y="206" class="font-sans" font-size="11" font-weight="600" fill="#64748b">Size:</text>
+  <rect x="716" y="191" width="30" height="22" rx="6" fill="#ffffff" />
+  <text x="722" y="206" class="font-sans" font-size="11" font-weight="700" fill="#4338ca">1K</text>
+  <text x="756" y="206" class="font-sans" font-size="11" fill="#64748b">2K</text>
+  <text x="790" y="206" class="font-sans" font-size="11" fill="#64748b">4K</text>
+
+  <!-- Generate Master Button -->
+  <rect x="910" y="186" width="320" height="32" rx="8" fill="url(#primaryGrad)" filter="url(#shadowSm)" />
+  <text x="946" y="206" class="font-sans" font-size="12" font-weight="700" fill="#ffffff">✨ Generate Cross-Platform Posts &amp; Images</text>
+
+  <!-- 3 Side-by-Side Platform Cards -->
+  <!-- COLUMN 1: LINKEDIN -->
+  <g transform="translate(30, 268)">
+    <rect width="394" height="460" rx="16" fill="#ffffff" filter="url(#shadowSm)" stroke="#e2e8f0" stroke-width="1" />
+    
+    <!-- Header -->
+    <rect width="394" height="52" rx="16" fill="#f8fafc" />
+    <rect x="0" y="36" width="394" height="16" fill="#f8fafc" />
+    <line x1="0" y1="52" x2="394" y2="52" stroke="#e2e8f0" stroke-width="1" />
+    
+    <rect x="16" y="12" width="28" height="28" rx="6" fill="url(#liGrad)" />
+    <text x="23" y="31" class="font-sans" font-size="14" font-weight="800" fill="#ffffff">in</text>
+    
+    <text x="54" y="25" class="font-sans" font-size="11" font-weight="800" fill="#1e293b" letter-spacing="1">LINKEDIN</text>
+    <text x="54" y="39" class="font-sans" font-size="10" fill="#64748b">742 chars • Ideal: 800 - 1800</text>
+
+    <!-- Tab bar -->
+    <rect x="230" y="12" width="150" height="26" rx="6" fill="#f1f5f9" />
+    <rect x="232" y="14" width="46" height="22" rx="5" fill="#ffffff" />
+    <text x="238" y="29" class="font-sans" font-size="10" font-weight="700" fill="#4338ca">Edit</text>
+    <text x="286" y="29" class="font-sans" font-size="10" font-weight="500" fill="#64748b">Mockup</text>
+    <text x="340" y="29" class="font-sans" font-size="10" font-weight="500" fill="#64748b">Audit</text>
+
+    <!-- Hook Box -->
+    <rect x="16" y="64" width="362" height="34" rx="8" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1" />
+    <line x1="16" y1="64" x2="16" y2="98" stroke="#4f46e5" stroke-width="4" />
+    <text x="26" y="77" class="font-sans" font-size="9" font-weight="700" fill="#3730a3">OPENING HOOK</text>
+    <text x="26" y="90" class="font-sans" font-size="11" font-weight="600" fill="#312e81">"Speed isn't a feature. It's the entire product experience."</text>
+
+    <!-- Content Snippet -->
+    <text x="16" y="118" class="font-sans" font-size="11" fill="#334155" line-height="16">
+      <tspan x="16" dy="0">When we set out to build an AI canvas, latency was 2.4s.</tspan>
+      <tspan x="16" dy="16">Users dropped off. So we re-architected everything:</tspan>
+      <tspan x="16" dy="16">• Edge-native streaming pipelines</tspan>
+      <tspan x="16" dy="16">• Speculative UI rendering</tspan>
+      <tspan x="16" dy="16">• Lightweight vector caches</tspan>
+      <tspan x="16" dy="18">The result? 320ms roundtrips and a 4.8x boost in DAU.</tspan>
+    </text>
+
+    <!-- Hashtags -->
+    <rect x="16" y="222" width="76" height="20" rx="4" fill="#f1f5f9" />
+    <text x="22" y="236" class="font-sans" font-size="10" font-weight="600" fill="#4338ca">#BuildInPublic</text>
+
+    <rect x="98" y="222" width="82" height="20" rx="4" fill="#f1f5f9" />
+    <text x="104" y="236" class="font-sans" font-size="10" font-weight="600" fill="#4338ca">#AIEngineering</text>
+
+    <rect x="186" y="222" width="58" height="20" rx="4" fill="#f1f5f9" />
+    <text x="192" y="236" class="font-sans" font-size="10" font-weight="600" fill="#4338ca">#Startups</text>
+
+    <!-- Image Preview 16:9 -->
+    <rect x="16" y="250" width="362" height="152" rx="10" fill="url(#imgBanner1)" />
+    <rect x="28" y="266" width="70" height="20" rx="4" fill="#000000" opacity="0.4" />
+    <text x="34" y="280" class="font-mono" font-size="9" fill="#ffffff">RATIO: 16:9</text>
+    <circle cx="197" cy="326" r="32" fill="#ffffff" opacity="0.15" />
+    <text x="197" y="322" class="font-sans" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">SUB-SECOND AI</text>
+    <text x="197" y="340" class="font-mono" font-size="11" fill="#c7d2fe" text-anchor="middle">2,400ms → 320ms LATENCY</text>
+
+    <!-- Footer Action -->
+    <rect x="16" y="416" width="362" height="32" rx="8" fill="#4f46e5" />
+    <text x="197" y="436" class="font-sans" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">📋 Copy LinkedIn Post</text>
+  </g>
+
+  <!-- COLUMN 2: TWITTER / X -->
+  <g transform="translate(444, 268)">
+    <rect width="394" height="460" rx="16" fill="#ffffff" filter="url(#shadowSm)" stroke="#e2e8f0" stroke-width="1" />
+    
+    <!-- Header -->
+    <rect width="394" height="52" rx="16" fill="#f8fafc" />
+    <rect x="0" y="36" width="394" height="16" fill="#f8fafc" />
+    <line x1="0" y1="52" x2="394" y2="52" stroke="#e2e8f0" stroke-width="1" />
+    
+    <rect x="16" y="12" width="28" height="28" rx="6" fill="url(#twGrad)" />
+    <text x="24" y="31" class="font-sans" font-size="14" font-weight="800" fill="#ffffff">𝕏</text>
+    
+    <text x="54" y="25" class="font-sans" font-size="11" font-weight="800" fill="#1e293b" letter-spacing="1">TWITTER / X</text>
+    <text x="54" y="39" class="font-sans" font-size="10" fill="#10b981" font-weight="700">248 / 280 chars • Perfect length</text>
+
+    <!-- Tab bar -->
+    <rect x="230" y="12" width="150" height="26" rx="6" fill="#f1f5f9" />
+    <rect x="232" y="14" width="46" height="22" rx="5" fill="#ffffff" />
+    <text x="238" y="29" class="font-sans" font-size="10" font-weight="700" fill="#4338ca">Edit</text>
+    <text x="286" y="29" class="font-sans" font-size="10" font-weight="500" fill="#64748b">Mockup</text>
+    <text x="340" y="29" class="font-sans" font-size="10" font-weight="500" fill="#64748b">Audit</text>
+
+    <!-- Hook Box -->
+    <rect x="16" y="64" width="362" height="34" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+    <line x1="16" y1="64" x2="16" y2="98" stroke="#0f172a" stroke-width="4" />
+    <text x="26" y="77" class="font-sans" font-size="9" font-weight="700" fill="#475569">VIRAL X HOOK</text>
+    <text x="26" y="90" class="font-sans" font-size="11" font-weight="600" fill="#0f172a">"If your AI takes &gt;1 sec to respond, users leave."</text>
+
+    <!-- Content Snippet -->
+    <text x="16" y="118" class="font-sans" font-size="11" fill="#334155" line-height="16">
+      <tspan x="16" dy="0">If your AI takes &gt;1 sec to respond, users leave.</tspan>
+      <tspan x="16" dy="16">Here's how we slashed our canvas latency by 87%:</tspan>
+      <tspan x="16" dy="16">1/ Stream directly from edge nodes</tspan>
+      <tspan x="16" dy="16">2/ Zero blocking calls on UI thread</tspan>
+      <tspan x="16" dy="16">3/ Micro-caching frequent prompts</tspan>
+      <tspan x="16" dy="18">Speed is retention. ⚡️ #buildinpublic #tech</tspan>
+    </text>
+
+    <!-- Quick polish pill toolbar -->
+    <rect x="16" y="214" width="86" height="24" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <text x="24" y="230" class="font-sans" font-size="10" fill="#475569">⚡ Make punchier</text>
+
+    <rect x="108" y="214" width="84" height="24" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <text x="116" y="230" class="font-sans" font-size="10" fill="#475569">✂️ Trim &lt;280c</text>
+
+    <rect x="198" y="214" width="78" height="24" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" />
+    <text x="206" y="230" class="font-sans" font-size="10" fill="#475569">🎯 Add CTA</text>
+
+    <!-- Image Preview 16:9 -->
+    <rect x="16" y="250" width="362" height="152" rx="10" fill="url(#imgBanner2)" />
+    <rect x="28" y="266" width="70" height="20" rx="4" fill="#000000" opacity="0.4" />
+    <text x="34" y="280" class="font-mono" font-size="9" fill="#ffffff">RATIO: 16:9</text>
+    <path d="M120 340 L170 300 L220 320 L270 280" stroke="#38bdf8" stroke-width="3" fill="none" />
+    <circle cx="270" cy="280" r="5" fill="#38bdf8" />
+    <text x="197" y="356" class="font-sans" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">RETENTION CURVE BY LATENCY</text>
+
+    <!-- Footer Action -->
+    <rect x="16" y="416" width="362" height="32" rx="8" fill="#18181b" />
+    <text x="197" y="436" class="font-sans" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">📋 Copy Tweet</text>
+  </g>
+
+  <!-- COLUMN 3: INSTAGRAM -->
+  <g transform="translate(856, 268)">
+    <rect width="394" height="460" rx="16" fill="#ffffff" filter="url(#shadowSm)" stroke="#e2e8f0" stroke-width="1" />
+    
+    <!-- Header -->
+    <rect width="394" height="52" rx="16" fill="#f8fafc" />
+    <rect x="0" y="36" width="394" height="16" fill="#f8fafc" />
+    <line x1="0" y1="52" x2="394" y2="52" stroke="#e2e8f0" stroke-width="1" />
+    
+    <rect x="16" y="12" width="28" height="28" rx="6" fill="url(#igGrad)" />
+    <circle cx="30" cy="26" r="6" stroke="#ffffff" stroke-width="2" fill="none" />
+    <circle cx="37" cy="19" r="1.5" fill="#ffffff" />
+    
+    <text x="54" y="25" class="font-sans" font-size="11" font-weight="800" fill="#1e293b" letter-spacing="1">INSTAGRAM</text>
+    <text x="54" y="39" class="font-sans" font-size="10" fill="#64748b">Visual Story • Square 1:1 Aspect</text>
+
+    <!-- Tab bar -->
+    <rect x="230" y="12" width="150" height="26" rx="6" fill="#f1f5f9" />
+    <rect x="232" y="14" width="46" height="22" rx="5" fill="#ffffff" />
+    <text x="238" y="29" class="font-sans" font-size="10" font-weight="700" fill="#4338ca">Edit</text>
+    <text x="286" y="29" class="font-sans" font-size="10" font-weight="500" fill="#64748b">Mockup</text>
+    <text x="340" y="29" class="font-sans" font-size="10" font-weight="500" fill="#64748b">Audit</text>
+
+    <!-- Hook Box -->
+    <rect x="16" y="64" width="362" height="34" rx="8" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="1" />
+    <line x1="16" y1="64" x2="16" y2="98" stroke="#db2777" stroke-width="4" />
+    <text x="26" y="77" class="font-sans" font-size="9" font-weight="700" fill="#9d174d">STORY HOOK</text>
+    <text x="26" y="90" class="font-sans" font-size="11" font-weight="600" fill="#831843">"320ms. That's how fast ideas should flow."</text>
+
+    <!-- Content Snippet -->
+    <text x="16" y="118" class="font-sans" font-size="11" fill="#334155" line-height="16">
+      <tspan x="16" dy="0">Behind every fluid creative flow is intense engineering.</tspan>
+      <tspan x="16" dy="16">We just deployed our zero-latency canvas update. ✨</tspan>
+      <tspan x="16" dy="16">Drop a '⚡️' below if you'd love early beta access!</tspan>
+      <tspan x="16" dy="20">. . .</tspan>
+      <tspan x="16" dy="16" fill="#4338ca" font-weight="600">#DesignTools #AITools #TechFounder</tspan>
+    </text>
+
+    <!-- Image Preview 1:1 -->
+    <rect x="16" y="214" width="362" height="188" rx="10" fill="url(#imgBanner3)" />
+    <rect x="28" y="226" width="60" height="20" rx="4" fill="#000000" opacity="0.4" />
+    <text x="34" y="240" class="font-mono" font-size="9" fill="#ffffff">RATIO: 1:1</text>
+    <circle cx="197" cy="308" r="44" fill="#ffffff" opacity="0.2" />
+    <text x="197" y="304" class="font-sans" font-size="24" font-weight="900" fill="#ffffff" text-anchor="middle">FLOW</text>
+    <text x="197" y="324" class="font-sans" font-size="10" font-weight="600" fill="#fecdd3" text-anchor="middle">COLLABORATIVE AI CANVAS</text>
+
+    <!-- Footer Action -->
+    <rect x="16" y="416" width="362" height="32" rx="8" fill="#e11d48" />
+    <text x="197" y="436" class="font-sans" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">📋 Copy Instagram Caption</text>
+  </g>
+</svg>

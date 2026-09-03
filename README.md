@@ -2,7 +2,7 @@
 
 > An AI-powered, multi-platform content engine that transforms a single raw idea and desired tone into high-converting, tailored posts and platform-optimized visual assets for **LinkedIn**, **Twitter / X**, and **Instagram** simultaneously.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Google%20Cloud%20Run-blue?style=for-the-badge&logo=google-cloud)](https://ais-pre-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Google%20Cloud%20Run-blue?style=for-the-badge&logo=google-cloud)](https://cross-platform-social-media-content-generator-517886466216.asia-southeast1.run.app/)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
@@ -13,13 +13,41 @@
 
 ## 🌐 Live Demo
 
-- **Production / Shared App**: [https://ais-pre-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app](https://ais-pre-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app)
-- **Development App**: [https://ais-dev-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app](https://ais-dev-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app)
+🔗 **Official Deployment**: [https://cross-platform-social-media-content-generator-517886466216.asia-southeast1.run.app/](https://cross-platform-social-media-content-generator-517886466216.asia-southeast1.run.app/)
+
+- **Cloud Run Production App**: [https://cross-platform-social-media-content-generator-517886466216.asia-southeast1.run.app/](https://cross-platform-social-media-content-generator-517886466216.asia-southeast1.run.app/)
+- **AI Studio Shared Preview**: [https://ais-pre-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app](https://ais-pre-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app)
+- **AI Studio Dev Preview**: [https://ais-dev-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app](https://ais-dev-u4afdmvqfwsoxzq2fqedgp-629351833193.asia-southeast1.run.app)
+
+---
+
+## 📸 Screenshots & Previews
+
+### 1. Unified Multi-Platform Dashboard
+Transform a single idea into tailored posts across LinkedIn, Twitter / X, and Instagram with matched aspect-ratio visuals in seconds:
+
+![Multi-Platform Dashboard Preview](public/screenshots/dashboard-preview.svg)
+
+---
+
+### 2. Live Platform Feed Previews (Mockup Mode)
+Switch between draft editing and true-to-life platform feed mockups with author badges, formatting conventions, reaction bars, and engagement metrics:
+
+![Live Social Feed Previews](public/screenshots/feed-mockups.svg)
+
+---
+
+### 3. Strategic Content & Virality Audit (`gemini-3.1-pro-preview`)
+Run algorithmic evaluations before posting to verify hook strength, readability score, predicted reach, and receive actionable tips plus sub-second polish actions:
+
+![Strategic Virality Audit](public/screenshots/virality-audit.svg)
 
 ---
 
 ## 📖 Table of Contents
 
+- [Live Demo](#-live-demo)
+- [Screenshots & Previews](#-screenshots--previews)
 - [Overview](#-overview)
 - [Key Features](#-key-features)
 - [Multi-Model Gemini Architecture](#-multi-model-gemini-architecture)

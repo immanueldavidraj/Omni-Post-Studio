@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mockupBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="liHero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#3730a3" />
+    </linearGradient>
+    <linearGradient id="twHero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="igStory" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+  </style>
+
+  <!-- Dark Showcase Backdrop -->
+  <rect width="1280" height="660" fill="url(#mockupBg)" />
+
+  <!-- Showcase Header Label -->
+  <text x="640" y="44" class="font-sans" font-size="20" font-weight="800" fill="#ffffff" text-anchor="middle">Live Social Feed Previews</text>
+  <text x="640" y="68" class="font-sans" font-size="13" fill="#94a3b8" text-anchor="middle">Test how your generated copy and visual assets render in actual platform algorithms &amp; feed viewports</text>
+
+  <!-- MOCKUP 1: LINKEDIN FEED (Left) -->
+  <g transform="translate(30, 92)">
+    <rect width="394" height="530" rx="14" fill="#ffffff" filter="url(#cardShadow)" />
+    
+    <!-- LinkedIn Feed Header -->
+    <circle cx="36" cy="36" r="18" fill="#e0e7ff" />
+    <text x="36" y="41" class="font-sans" font-size="12" font-weight="700" fill="#4338ca" text-anchor="middle">JD</text>
+    
+    <text x="64" y="30" class="font-sans" font-size="13" font-weight="700" fill="#0f172a">Jordan Davies <tspan fill="#64748b" font-weight="400" font-size="11">• 1st</tspan></text>
+    <text x="64" y="44" class="font-sans" font-size="10" fill="#64748b">Head of Product Strategy | Scaling SaaS &amp; AI</text>
+    <text x="64" y="56" class="font-sans" font-size="9" fill="#94a3b8">1d • 🌐</text>
+    <text x="366" y="32" class="font-sans" font-size="14" fill="#94a3b8">•••</text>
+
+    <!-- Post Text -->
+    <text x="18" y="80" class="font-sans" font-size="11" fill="#1e293b" line-height="15">
+      <tspan x="18" dy="0">Speed isn't a feature. It's the entire product experience.</tspan>
+      <tspan x="18" dy="16">When we set out to build an AI canvas, latency was 2.4s.</tspan>
+      <tspan x="18" dy="16">Users dropped off. So we re-architected everything from edge</tspan>
+      <tspan x="18" dy="16">streaming to vector caching. Result: 320ms roundtrips.</tspan>
+      <tspan x="18" dy="16" fill="#0a66c2" font-weight="600">#BuildInPublic #AIEngineering #Startups</tspan>
+    </text>
+
+    <!-- LinkedIn Media Asset (16:9 Banner) -->
+    <rect x="0" y="160" width="394" height="220" fill="url(#liHero)" />
+    <circle cx="197" cy="270" r="46" fill="#ffffff" opacity="0.1" />
+    <text x="197" y="260" class="font-sans" font-size="20" font-weight="900" fill="#ffffff" text-anchor="middle">SUB-SECOND AI</text>
+    <text x="197" y="284" class="font-mono" font-size="11" font-weight="700" fill="#a5b4fc" text-anchor="middle">2.4s ➔ 320ms LATENCY</text>
+
+    <!-- Reactions count -->
+    <circle cx="28" cy="400" r="8" fill="#0a66c2" />
+    <text x="28" y="403" class="font-sans" font-size="9" fill="#ffffff" text-anchor="middle">👍</text>
+    <circle cx="44" cy="400" r="8" fill="#f59e0b" />
+    <text x="44" y="403" class="font-sans" font-size="9" fill="#ffffff" text-anchor="middle">💡</text>
+    <text x="60" y="404" class="font-sans" font-size="10" fill="#64748b">342 reactions • 48 comments</text>
+
+    <line x1="18" y1="422" x2="376" y2="422" stroke="#e2e8f0" stroke-width="1" />
+
+    <!-- Action Bar -->
+    <text x="46" y="446" class="font-sans" font-size="11" font-weight="600" fill="#475569">👍 Like</text>
+    <text x="134" y="446" class="font-sans" font-size="11" font-weight="600" fill="#475569">💬 Comment</text>
+    <text x="238" y="446" class="font-sans" font-size="11" font-weight="600" fill="#475569">🔄 Repost</text>
+    <text x="330" y="446" class="font-sans" font-size="11" font-weight="600" fill="#475569">↗️ Send</text>
+
+    <!-- Platform Badge -->
+    <rect x="18" y="476" width="358" height="38" rx="8" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1" />
+    <text x="197" y="500" class="font-sans" font-size="11" font-weight="600" fill="#0369a1" text-anchor="middle">✓ Formatted with professional spacing &amp; long-form hook</text>
+  </g>
+
+  <!-- MOCKUP 2: TWITTER / X POST (Center) -->
+  <g transform="translate(444, 92)">
+    <rect width="394" height="530" rx="14" fill="#ffffff" filter="url(#cardShadow)" />
+    
+    <!-- Tweet Header -->
+    <circle cx="36" cy="36" r="18" fill="#000000" />
+    <text x="36" y="41" class="font-sans" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">𝕏</text>
+    
+    <text x="64" y="32" class="font-sans" font-size="13" font-weight="700" fill="#0f172a">Jordan Davies</text>
+    <circle cx="156" cy="28" r="6" fill="#0ea5e9" />
+    <text x="156" y="31" class="font-sans" font-size="8" fill="#ffffff" text-anchor="middle">✓</text>
+    
+    <text x="170" y="32" class="font-sans" font-size="11" fill="#64748b">@jordandavies • 2h</text>
+    <text x="366" y="32" class="font-sans" font-size="14" fill="#94a3b8">•••</text>
+
+    <!-- Tweet Content -->
+    <text x="64" y="60" class="font-sans" font-size="12" fill="#0f172a" line-height="16">
+      <tspan x="64" dy="0">If your AI takes &gt;1 sec to respond, users leave.</tspan>
+      <tspan x="64" dy="16">Here's how we slashed our canvas latency by 87%:</tspan>
+      <tspan x="64" dy="16">1/ Stream directly from edge nodes</tspan>
+      <tspan x="64" dy="16">2/ Zero blocking calls on UI thread</tspan>
+      <tspan x="64" dy="16">3/ Micro-caching frequent prompts</tspan>
+      <tspan x="64" dy="18">Speed is retention. ⚡️ <tspan fill="#0284c7">#buildinpublic #tech</tspan></tspan>
+    </text>
+
+    <!-- Embedded Media Card (16:9) -->
+    <rect x="64" y="156" width="314" height="176" rx="12" fill="url(#twHero)" />
+    <text x="221" y="240" class="font-sans" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle">RETENTION CURVE BY LATENCY</text>
+    <text x="221" y="260" class="font-mono" font-size="11" fill="#e0f2fe" text-anchor="middle">87% Latency Reduction</text>
+
+    <!-- Tweet Metric Bar -->
+    <g transform="translate(64, 348)">
+      <text x="0" y="16" class="font-sans" font-size="11" fill="#64748b">💬 38</text>
+      <text x="76" y="16" class="font-sans" font-size="11" fill="#64748b">🔄 112</text>
+      <text x="156" y="16" class="font-sans" font-size="11" fill="#64748b">❤️ 489</text>
+      <text x="236" y="16" class="font-sans" font-size="11" fill="#64748b">📊 14.2K</text>
+    </g>
+
+    <!-- Platform Badge -->
+    <rect x="18" y="476" width="358" height="38" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1" />
+    <text x="197" y="500" class="font-sans" font-size="11" font-weight="600" fill="#15803d" text-anchor="middle">✓ Validated under 280 characters with high-retention hook</text>
+  </g>
+
+  <!-- MOCKUP 3: INSTAGRAM FEED (Right) -->
+  <g transform="translate(856, 92)">
+    <rect width="394" height="530" rx="14" fill="#ffffff" filter="url(#cardShadow)" />
+    
+    <!-- IG Header -->
+    <circle cx="36" cy="34" r="16" stroke="url(#igStory)" stroke-width="2.5" fill="none" />
+    <circle cx="36" cy="34" r="13" fill="#0f172a" />
+    <text x="36" y="38" class="font-sans" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">JD</text>
+    
+    <text x="62" y="32" class="font-sans" font-size="12" font-weight="700" fill="#0f172a">jordandavies.studio</text>
+    <text x="62" y="44" class="font-sans" font-size="9" fill="#94a3b8">Original audio</text>
+    <text x="366" y="34" class="font-sans" font-size="14" fill="#94a3b8">•••</text>
+
+    <!-- IG Media (Square 1:1 Aspect Ratio) -->
+    <rect x="0" y="60" width="394" height="260" fill="#be185d" />
+    <circle cx="197" cy="190" r="50" fill="#ffffff" opacity="0.2" />
+    <text x="197" y="185" class="font-sans" font-size="30" font-weight="900" fill="#ffffff" text-anchor="middle">FLOW</text>
+    <text x="197" y="210" class="font-sans" font-size="11" font-weight="700" fill="#fbcfe8" text-anchor="middle">COLLABORATIVE CANVAS</text>
+
+    <!-- IG Engagement Bar -->
+    <text x="18" y="344" class="font-sans" font-size="14">❤️  💬  ✈️</text>
+    <text x="362" y="344" class="font-sans" font-size="14">🏷️</text>
+
+    <text x="18" y="370" class="font-sans" font-size="11" font-weight="700" fill="#0f172a">1,482 likes</text>
+
+    <!-- IG Caption -->
+    <text x="18" y="392" class="font-sans" font-size="11" fill="#1e293b">
+      <tspan font-weight="700">jordandavies.studio </tspan>
+      <tspan>Behind every fluid creative flow is intense</tspan>
+      <tspan x="18" dy="16">engineering. We just deployed our zero-latency canvas update. ✨</tspan>
+      <tspan x="18" dy="16" fill="#4338ca" font-weight="600">#DesignTools #AITools #TechFounder #CreativeTech</tspan>
+    </text>
+
+    <!-- Platform Badge -->
+    <rect x="18" y="476" width="358" height="38" rx="8" fill="#fdf2f8" stroke="#fbcfe8" stroke-width="1" />
+    <text x="197" y="500" class="font-sans" font-size="11" font-weight="600" fill="#be185d" text-anchor="middle">✓ Optimized for square 1:1 visual framing &amp; conversational tone</text>
+  </g>
+</svg>
